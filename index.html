@@ -1,0 +1,128 @@
+l<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      </br>
+      </br>
+      <div class="section hero">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column" style="text-align: center;">
+        <!**************************Adroid File *******************************-->
+        <a class="button button-primary" style="    font-size: 32px;
+    background: linear-gradient(360deg, #4fd418, #5ad34a);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;text-decoration: none;"
+             href="/Metatrader5+.apk" download>Download for Android 
+          <img src='Images/apk.png' style="width: 40px;
+    border-radius: 30px;position: absolute;
+    margin: 10px;"></img></a>
+           </br></br>
+           <!--<div class="" style="font-size: 30px;color: Green;">
+              <marquee behavior="scroll" direction="left">Try both Links : in case "Link1" is not working then try "Link2" at a time one will work always.</marquee>
+        </div>
+</br></br></br>
+          <a class="button button-primary" style="font-size: 32px;
+    background: linear-gradient(360deg, #000000, #4d4d4d);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;text-decoration: none;"
+             href="itms-services://?action=download-manifest&url=https://ios.bullbear.live/Plist/MT5.plist">
+            Download for iOS Link-1 <img src='Images/ipa.png' style="width: 40px;
+    border-radius: 30px;position: absolute;
+    margin: 10px;"></img></a>-->
+   	           </br></br></br></br></br>
+          <a class="button button-primary" style="font-size: 32px;
+    background: linear-gradient(360deg, #000000, #4d4d4d);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;text-decoration: none;"
+             href="itms-services://?action=download-manifest&url=https://ios.bullbear.live/Plist/MT5+.plist">
+            Download for iOS Link <img src='Images/ipa.png' style="width: 40px;
+    border-radius: 30px;position: absolute;
+    margin: 10px;"></img></a>
+   		 </br></br></br></br>
+           
+    
+  <!**************************EXE Files *******************************-->
+<div class="" style="font-size: 30px;color: Blue;">
+           Desktop Applications </div>
+        </br></br>
+
+       <a class="button button-primary" style="font-size: 32px;
+    background: linear-gradient(360deg, #f74e0b, #0c87f0);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;text-decoration: none;"
+             href="/BullBear Setup.exe">
+             Client Setup <img src='Images/Desktop.png' style="width: 40px;
+    border-radius: 30px;position: absolute;
+    margin: 10px;"></img></a>
+  		 </br></br></br></br>
+
+       <!--<a class="button button-primary" style="font-size: 32px;
+    background: linear-gradient(360deg, #f74e0b, #f74e0b);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;text-decoration: none;"
+             href="/Administrator-Special-1.exe">
+             Administrator Setup <img src='Images/Admin.png' style="width: 40px;
+    border-radius: 30px;position: absolute;
+    margin: 10px;"></img></a>
+  		 </br></br></br></br>-->
+
+       <a class="button button-primary" style="font-size: 32px;
+    background: linear-gradient(360deg, #f74e0b, #f74e0b);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;text-decoration: none;"
+             href="/Manager-Special-1.exe">
+             Manager Setup <img src='Images/Manager.png' style="width: 40px;
+    border-radius: 30px;position: absolute;
+    margin: 10px;"></img></a>
+ <!**************************Scrolling text  *******************************-->
+</br></br></br></br>
+<div class="" style="font-size: 30px;color: Red;">
+      <marquee behavior="scroll" direction="left">Disclaimer:-
+This web page and application are developed solely for educational purposes only we are not responsible for any financial decisions made outside this platform!.</marquee>
+
+   <!**************************End *******************************-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        /*$(document).ready(function() {
+            // Show the banner if there is a latest notice
+                            $('#latestNoticeBanner').fadeIn();
+                    });*/
+
+        function toggleVisibility(section) {
+            const element = document.getElementById(section);
+            const icon = document.getElementById(section + '-icon');
+            if (element.classList.contains('show')) {
+                element.classList.remove('show');
+                icon.classList.remove('fa-chevron-up');
+                icon.classList.add('fa-chevron-down');
+            } else {
+                element.classList.add('show');
+                icon.classList.remove('fa-chevron-down');
+                icon.classList.add('fa-chevron-up');
+            }
+        }
+
+        function closeBanner() {
+            const banner = document.getElementById('latestNoticeBanner');
+            banner.style.display = 'none'; // Hide the banner
+        }
+        </div>
+      </div>
+    </div>
+  </div>
+      <p id="currentTime"></p>
+      <script src="script.js"></script>
+  </body>
+</html>
